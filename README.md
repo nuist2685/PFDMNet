@@ -10,7 +10,7 @@
 
 ## Overview
 
-PFDMNet is proposed for infrared small target detection in complex scenes. The main idea is to use frequency decomposition to describe background structures and target details separately, and then combine them with learnable feature modeling for more reliable small target segmentation.
+PFDMNet is proposed for infrared small target detection in complex scenes. It uses frequency decomposition to separately describe background structures and target details, and further combines them with learnable feature modeling for more reliable small target segmentation.
 
 The source code and related materials will be made publicly available after the manuscript is accepted.
 
@@ -18,10 +18,10 @@ The source code and related materials will be made publicly available after the 
 
 ## Difference-Driven Convolution Block
 
-DDCB is used to enhance local differences around small targets, which helps distinguish weak targets from surrounding clutter.
+DDCB is designed to enhance local differences around small targets, making weak targets easier to distinguish from surrounding clutter.
 
 <div align="center">
-  <img src="./DDCB.png" width="850">
+  <img src="./assets/DDCB.png" width="850">
   <br>
   <em>Fig. 1. Structure of the difference-driven convolution block.</em>
 </div>
@@ -30,10 +30,10 @@ DDCB is used to enhance local differences around small targets, which helps dist
 
 ## Frequency Modeling Module
 
-FMM decomposes input features into different frequency components, so that background structure and local details can be processed separately.
+FMM decomposes input features into different frequency components, allowing background structures and local details to be processed separately.
 
 <div align="center">
-  <img src="./FMM.jpg" width="850">
+  <img src="./assets/FMM.jpg" width="850">
   <br>
   <em>Fig. 2. Structure of the frequency modeling module.</em>
 </div>
@@ -42,10 +42,10 @@ FMM decomposes input features into different frequency components, so that backg
 
 ## Role-Aware Fusion Module
 
-RAFM models shallow and deep features with different roles before fusion, making the fusion process more suitable for small target segmentation.
+RAFM models shallow and deep features according to their different roles before fusion, making cross-level feature fusion more suitable for small target segmentation.
 
 <div align="center">
-  <img src="./RAFM.jpg" width="850">
+  <img src="./assets/RAFM.jpg" width="850">
   <br>
   <em>Fig. 3. Structure of the role-aware fusion module.</em>
 </div>
@@ -54,10 +54,10 @@ RAFM models shallow and deep features with different roles before fusion, making
 
 ## Visual Comparison
 
-The visual comparison shows the segmentation results of different infrared small target detection methods. Compared with other methods, PFDMNet produces more complete target regions and fewer background responses in challenging scenes.
+The visual comparison shows the segmentation results of different infrared small target detection methods. PFDMNet produces more complete target regions and fewer background responses in challenging scenes.
 
 <div align="center">
-  <img src="./Comparsion.png" width="900">
+  <img src="./assets/Comparison.png" width="900">
   <br>
   <em>Fig. 4. Visual comparison results of different IRSTD methods.</em>
 </div>
@@ -69,7 +69,7 @@ The visual comparison shows the segmentation results of different infrared small
 The 3D visualization shows the response maps of different methods. PFDMNet gives a sharper and more concentrated response around the target region.
 
 <div align="center">
-  <img src="./3d_visual.jpg" width="900">
+  <img src="./assets/3d_visual.png" width="900">
   <br>
   <em>Fig. 5. 3D visualization results of different IRSTD methods.</em>
 </div>
@@ -79,5 +79,3 @@ The 3D visualization shows the response maps of different methods. PFDMNet gives
 ## Code Release
 
 The source code and detailed usage instructions will be released after the manuscript is accepted.
-
----
