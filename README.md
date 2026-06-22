@@ -12,7 +12,7 @@
 
 PFDMNet is proposed for infrared small target detection in complex scenes. It uses frequency decomposition to separately describe background structures and target details, and further combines them with learnable feature modeling for more reliable small target segmentation.
 
-The source code and related materials will be made publicly available after the manuscript is accepted.
+The module code and related materials will be made publicly available after the manuscript is accepted.
 
 ---
 
