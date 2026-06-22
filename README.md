@@ -76,6 +76,3 @@ The 3D visualization shows the response maps of different methods. PFDMNet gives
 
 ---
 
-## Code Release
-
-The source code and detailed usage instructions will be released after the manuscript is accepted.
