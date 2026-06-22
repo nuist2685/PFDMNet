@@ -51,6 +51,15 @@ RAFM models shallow and deep features according to their different roles before 
 </div>
 
 ---
+## 3D Visualization
+
+The 3D visualization shows the response maps of different methods. PFDMNet gives a sharper and more concentrated response around the target region.
+
+<div align="center">
+  <img src="./assets/3d_visual.png" width="900">
+  <br>
+  <em>Fig. 5. 3D visualization results of different IRSTD methods.</em>
+</div>
 
 ## Visual Comparison
 
@@ -64,15 +73,7 @@ The visual comparison shows the segmentation results of different infrared small
 
 ---
 
-## 3D Visualization
 
-The 3D visualization shows the response maps of different methods. PFDMNet gives a sharper and more concentrated response around the target region.
-
-<div align="center">
-  <img src="./assets/3d_visual.png" width="900">
-  <br>
-  <em>Fig. 5. 3D visualization results of different IRSTD methods.</em>
-</div>
 
 ---
 
